@@ -1,0 +1,3 @@
+[submodule "socat"]
+	path = socat
+	url = git://repo.or.cz/socat.git
