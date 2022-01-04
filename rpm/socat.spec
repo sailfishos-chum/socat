@@ -34,7 +34,13 @@ external socksifier, for attacking weak firewalls, as a shell interface to UNIX
 sockets, IP6 relay, for redirecting TCP oriented programs to a serial line, to
 logically connect serial lines on different computers, or to establish a
 relatively secure environment (su and  chroot) for running client or server
-shell scripts with network connections. 
+shell scripts with network connections.
+
+Type: console-application
+Custom:
+  Repo: https://github.com/sailfishos-chum/socat
+Categories:
+  - Utility
 
 %define source_date_epoch_from_changelog 1
 %define clamp_mtime_to_source_date_epoch 1
